@@ -6,7 +6,7 @@ include_footer: true
 type: "static"
 ---
 <p style="padding: 10px 100px 10px 0px;">  
-<strong>No SPAM!*</strong> We will only use your email address to send you news about WeCarry. You can unsubscribe at any 
+<strong>No SPAM!</strong> We will only use your email address to send you news about WeCarry. You can unsubscribe at any 
 time by clicking the link in any email from us.
 This website uses Google Analytics to help us understand how visitors interact with the website, but we do 
 NOT use it to track, collect or send to Google any data that personally identifies an individual. For more information on how Google Analytics collects and processes data, see "How Google uses data when you use our partners' sites or apps" https://www.google.com/policies/privacy/partners/.
