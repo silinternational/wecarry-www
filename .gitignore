@@ -4,3 +4,4 @@
 *.tfstate.backup
 public/
 resources/
+.DS_Store

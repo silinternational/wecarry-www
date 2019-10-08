@@ -10,4 +10,5 @@ csinstallhugo:
 	chmod a+x hugo
 
 csbuild:
+	git clone https://github.com/StefMa/hugo-fresh themes/hugo-fresh/
 	./hugo

@@ -36,11 +36,11 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: How It Works
-    url: "/#how-it-works"
+    Permalink: "/#how-it-works"
   - title: Benefits
-    url: "/#benefits"
+    Permalink: "/#benefits"
   - title: Hype
-    url: "/#hype"
+    Permalink: "/#hype"
   # - title: Pricing
   #   url: /
   # - title: Dropdown
@@ -54,7 +54,7 @@ params:
   # - title: Log in
   #   url: /
   - title: Keep in touch
-    url: "/#keep-in-touch"
+    Permalink: "/#keep-in-touch"
     button: true
   section1:
     title: How It Works

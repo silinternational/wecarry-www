@@ -24,9 +24,9 @@
             <div class="card-text">
                 <p>{{ .text }}</p>
             </div>
-            {{ if .url }}
+            {{ if .Permalink }}
             <div class="card-action">
-              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              <a href="{{ .Permalink }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
             </div>
             {{ end }}
           </div>
