@@ -1,0 +1,13 @@
+.navbar.is-fresh .navbar-brand img {
+    height: 60px !important;
+    max-height: 60px !important;
+}
+
+.navbar-item img {
+    max-height: 3.5rem;
+}
+
+#benefits .image img {
+    width: 100px;
+    margin-top: 50px;
+}
