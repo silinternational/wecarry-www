@@ -19,7 +19,7 @@ variable "codeship_username" {
 }
 
 variable "cert_domain_name" {
-  default = "*.wecarry.app"
+  default = "wecarry.app"
 }
 
 variable "cloudflare_domain" {
