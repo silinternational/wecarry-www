@@ -143,10 +143,14 @@ params:
           link: "/#how-it-works"
         - text: Benefits
           link: "/#benefits"
+        - text: Early Access
+          link: "/#early-access-program"
         - text: Hype
           link: "/#hype"
         - text: Keep In Touch
           link: "/#keep-in-touch"
+        - text: Log in
+          link: "https://wecarry.app/"
       column2:
         title: "Follow Us"
         links:
