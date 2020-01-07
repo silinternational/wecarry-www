@@ -19,7 +19,7 @@ params:
     # Main hero title
     title: Because we care, WeCarry.
     # Hero subtitle (optional)
-    subtitle: Connecting with others to satisfy your hand-carry needs is difficult. We aim to fix that. Coming soon is a new platform for posting your needs so that others in your organization can find and respond to them. It is about making it easier to serve one another in a community of grace.
+    subtitle: Connecting with others to satisfy your hand-carry needs is difficult. We aim to fix that. Now available in an Early Access period is a new platform for posting your needs so that others in your organization can find and respond to them. It is about making it easier to serve one another in a community of grace.
     # Button text
     buttontext: How It Works
     # Where the main hero button links to
@@ -51,8 +51,8 @@ params:
   #     url: /
   #   - title: Dropdown item
   #     url: /
-  # - title: Log in
-  #   url: /
+  - title: Log in
+    Permalink: https://wecarry.app/
   - title: Keep in touch
     Permalink: "/#keep-in-touch"
     button: true
@@ -96,12 +96,12 @@ params:
     - title: Enjoy yummy treats like grandma's cookies
       text: We really hope WeCarry is not only used for productive business related carries but also for fun and tasty treats! Seriously, who doesn't want some of their grandma's cookies from time to time?
       icon: enjoy.svg
-  # section3:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
+  section3:
+    title: Early Access Program
+    subtitle: If you'd like to get in on our Early Access Program and help us shape WeCarry...
+    image: screenshot.png
+    buttonText: Let Us Know
+    buttonLink: "/#keep-in-touch"
   section4:
     title: Get Hyped!
     subtitle: With WeCarry on the horizon, we all have a lot to look forward to
