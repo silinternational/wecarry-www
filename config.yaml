@@ -54,7 +54,7 @@ params:
   #   - title: Dropdown item
   #     url: /
   - title: Log in
-    Permalink: https://wecarry.app/
+    Permalink: https://wecarry.app/#/login
   - title: Keep in touch
     Permalink: "/#keep-in-touch"
     button: true
@@ -150,7 +150,7 @@ params:
         - text: Keep In Touch
           link: "/#keep-in-touch"
         - text: Log in
-          link: "https://wecarry.app/"
+          link: "https://wecarry.app/#/login"
       column2:
         title: "Follow Us"
         links:
