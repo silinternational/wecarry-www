@@ -165,7 +165,9 @@ params:
       column3:
         title: "Terms"
         links:
+        - text: Terms of Use
+          link: "https://wecarry.app/#/terms"
         - text: Privacy Policy
-          link: /privacy/
+          link: "https://wecarry.app/#/privacy/"
         # - text: Tech articles
         #   link: /blog/second
