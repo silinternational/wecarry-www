@@ -2,6 +2,7 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
+tfc-remote.tf
 public/
 resources/
 .DS_Store
