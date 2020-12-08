@@ -1,11 +1,15 @@
 variable "aliases" {
-  type        = "list"
+  type        = list(string)
   default     = ["www.wecarry.app"]
   description = "List of hostname aliases"
 }
 
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
+variable "aws_access_key" {
+}
+
+variable "aws_secret_key" {
+}
+
 variable "aws_region" {
   default = "us-east-1"
 }
@@ -27,7 +31,7 @@ variable "cloudflare_domain" {
 }
 
 variable "cloudflare_email" {
-  type = "string"
+  type = string
 }
 
 variable "cloudflare_subdomain" {
@@ -35,7 +39,9 @@ variable "cloudflare_subdomain" {
 }
 
 variable "cloudflare_token" {
-  type = "string"
+  type = string
 }
 
-variable "tf_remote_common" {}
+variable "tf_remote_common" {
+}
+
