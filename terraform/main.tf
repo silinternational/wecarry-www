@@ -22,12 +22,20 @@ module "hugosite" {
 
 // Create DNS CNAME record on Cloudflare
 resource "cloudflare_record" "www" {
-  domain     = var.cloudflare_domain
+  zone_id    = data.cloudflare_zones.domain.zones[0].id
   name       = var.cloudflare_subdomain
   type       = "CNAME"
   value      = module.hugosite.cloudfront_hostname
   proxied    = true
   depends_on = [module.hugosite]
+}
+
+data "cloudflare_zones" "domain" {
+  filter {
+    name        = var.cloudflare_domain
+    lookup_type = "exact"
+    status      = "active"
+  }
 }
 
 resource "null_resource" "force_apply" {

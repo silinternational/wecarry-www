@@ -30,16 +30,25 @@ variable "cloudflare_domain" {
   default = "wecarry.app"
 }
 
-variable "cloudflare_email" {
-  type = string
+variable "cloudflare_account_id" {
 }
 
-variable "cloudflare_subdomain" {
-  default = "www"
+variable "cloudflare_email" {
+  description = "The email associated with the Cloudflare account. Required if the API token is not provided."
+  default     = ""
 }
 
 variable "cloudflare_token" {
-  type = string
+  description = "The Cloudflare API token. This is an alternative to email+api_key. If both are specified, api_token will be used over email+api_key fields."
+  default     = ""
+}
+
+variable "cloudflare_api_key" {
+  description = "The Cloudflare API key. Required if the API token is not provided."
+  default     = ""
+}
+variable "cloudflare_subdomain" {
+  default = "www"
 }
 
 variable "tf_remote_common" {
