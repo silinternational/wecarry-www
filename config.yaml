@@ -8,6 +8,10 @@ disableKinds:
   - taxonomyTerm
 
 params:
+  # Used as meta data; describe your site to make Google Bots happy
+  description: Connecting with others to satisfy your hand-carry needs is difficult. We aim to fix that. Now available in an Early Access period is a new platform for posting your needs so that others in your organization can find and respond to them. It is about making it easier to serve one another in a community of grace.
+  images:
+  - logos/wecarry.svg
   navbarlogo:
   # Logo (from static/images/logos/___)
    image: logos/wecarry.svg
