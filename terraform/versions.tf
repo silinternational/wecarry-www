@@ -10,5 +10,9 @@ terraform {
       version = "~> 2.2"
       source  = "hashicorp/template"
     }
+    cloudflare = {
+      version = "~> 2.0"
+      source  = "cloudflare/cloudflare"
+    }
   }
 }
