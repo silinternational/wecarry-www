@@ -131,9 +131,9 @@ params:
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     # Icons are from Font Awesome
-    - link: https://instagram.com/#
+    - link: https://www.instagram.com/WeCarryApp/
       icon: instagram
-    - link: https://facebook.com/#
+    - link: https://www.facebook.com/WeCarryApp/
       icon: facebook
     - link: https://twitter.com/WeCarryApp
       icon: twitter
