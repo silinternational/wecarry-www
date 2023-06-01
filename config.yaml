@@ -21,9 +21,9 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Because we care, WeCarry.
+    title: WeCarry is being discontinuned
     # Hero subtitle (optional)
-    subtitle: Connecting with others to satisfy your hand-carry needs is difficult. We aim to fix that. Now available in an Early Access period is a new platform for posting your needs so that others in your organization can find and respond to them. It is about making it easier to serve one another in a community of grace.
+    subtitle: No new signups are being accepted. The app will be shut down in August 2023.
     # Button text
     buttontext: How It Works
     # Where the main hero button links to
